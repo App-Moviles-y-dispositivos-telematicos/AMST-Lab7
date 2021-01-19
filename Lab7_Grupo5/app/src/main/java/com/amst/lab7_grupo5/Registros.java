@@ -69,7 +69,7 @@ public class Registros extends AppCompatActivity {
     }
 
     public void solicitarTemperaturas(){
-        String url_registros = "https://amstdb.herokuapp.com/db/logTres";
+        String url_registros = "https://practica-de-laboratorio-6.firebaseio.com/Registros.json";
         JsonArrayRequest requestRegistros =
                 new JsonArrayRequest(Request.Method.GET,
                         url_registros, null, new Response.Listener<JSONArray>() {
@@ -141,9 +141,9 @@ public class Registros extends AppCompatActivity {
     private void actualizarGrafico(JSONArray temperaturas){
         JSONObject registro_temp;
         String temp;
-        String date;     int
-                count = 0;     float
-                temp_val;
+        String date;
+        int count = 0;
+        float temp_val;
         ArrayList<BarEntry> dato_temp = new ArrayList<>();
         try
         {

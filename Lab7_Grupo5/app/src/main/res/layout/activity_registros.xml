@@ -5,6 +5,7 @@
     android:layout_height="fill_parent"
     android:fillViewport="true"
     android:scrollbars = "vertical"
+    android:padding="20dp"
     android:scrollbarStyle="insideInset">
 
         <LinearLayout
@@ -17,8 +18,7 @@
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barChart"
                 android:layout_width="match_parent"
-                android:layout_height="400dp">
-            </com.github.mikephil.charting.charts.BarChart>
+                android:layout_height="348dp"></com.github.mikephil.charting.charts.BarChart>
 
             <TextView
                 android:id="@+id/textView2"
@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#635D5D"
-                    android:text="Feecha obtenida"
+                    android:text="Fecha obtenida"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
                 <TextView
