@@ -1,1 +1,1 @@
-# Laboratorio7
+# AMST-Lab7
