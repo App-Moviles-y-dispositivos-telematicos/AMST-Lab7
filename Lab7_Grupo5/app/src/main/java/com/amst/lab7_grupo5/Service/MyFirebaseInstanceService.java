@@ -21,7 +21,7 @@ public class MyFirebaseInstanceService extends FirebaseMessagingService {
     @Override
     public void onNewToken(String s) {
         super.onNewToken(s);
-        Log.d("TOKENFIREBASE", s); //fNqCaUTWRdaI39fC-VfnIL:APA91bEAQRgX3HUw5JULLFRDixCZpmWyjsvQwC48_4YfrNIlSX8sUEj3Ml-WVWfonddTo2ejAOsgAypzj5sRBfImGLEMBbt8rfK_io9ytp9ciRsN9DODzS5nt2QwWIVi11GP0pRg_MBy
+        Log.d("TOKENFIREBASE", s);
     }
 
     public void onMessageReceived(RemoteMessage remoteMessage) {
